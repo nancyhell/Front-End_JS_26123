@@ -145,8 +145,8 @@ footer .footer-list {
 }
 
 .card {
-  background-color: #8a79a8;
-  color: #2a1e35;
+  background-color: #44c8e0;
+  color: #ffffff;
   width: 40rem;
 
   border-radius: 1rem;
@@ -159,6 +159,10 @@ footer .footer-list {
   gap: 1rem;
 
   padding-bottom: 2rem;
+}
+
+.card h3 {
+  padding: 1.6rem;
 }
 
 .card img {
@@ -175,7 +179,7 @@ footer .footer-list {
 }
 
 .form-contacto {
-  background-color: #8a79a8;
+  background-color: #44c8e0;
   color: #2a1e35;
   width: 100%;
   max-width: 50rem;
@@ -184,6 +188,23 @@ footer .footer-list {
   border-radius: 1rem;
 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* sutil */
+}
+
+.form-contacto input {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.form-contacto textarea
+{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 /* -------------------------------------------------------------------------- */
