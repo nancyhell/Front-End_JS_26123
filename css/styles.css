@@ -36,15 +36,15 @@ main {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 800;
   line-height: 1.15;
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 
 h2 {
-  color: #fff7fb;
-  font-size: 2.4rem;
+  color: #ffffff;
+  font-size: 3.4rem;
   font-weight: 700;
   line-height: 1.2;
   text-align: center;
