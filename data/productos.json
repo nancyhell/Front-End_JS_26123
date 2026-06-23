@@ -24,14 +24,14 @@
     "id": "4",
     "nombre": "Sérum La Roche Posay Pure Vitamin C12",
     "descripcion": "Antioxidante x 30 ml",
-    "precio": 77620,
+    "precio": 77.620,
     "img": "img/serum.jpg"
   },
   {
     "id": "5",
-    "nombre": "Producto 5",
-    "descripcion": "Descripción del producto 5",
-    "precio": 1234,
-    "img": "img/pan.jpg"
+    "nombre": "Serum Isdinceutics Hyaluronic Concentrate Isdin",
+    "descripcion": "Concentrate x 30 ml",
+    "precio": 132.840,
+    "img": "img/isdin.jpg"
   }
 ]
