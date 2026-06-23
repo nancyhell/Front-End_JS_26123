@@ -1,31 +1,36 @@
 [
   {
     "id": "1",
-    "nombre": "Producto 1",
-    "precio": 1234,
-    "img": "img/budincito.jpg"
+    "nombre": "Protector Solar La Roche Posay Anthelios",
+    "descripcion": "UVM Spf 50 x 50 ml",
+    "precio": 38.216,
+    "img": "img/protector-anthelios.jpg"
   },
   {
     "id": "2",
-    "nombre": "Producto 2",
-    "precio": 1234,
-    "img": "img/croissant.jpg"
+    "nombre": "Crema Anti-Edad de Día Eucerin Hyaluron-Filler + Elasticity",
+    "descripcion": "Fps 15 x 50 ml",
+    "precio": 82.016,
+    "img": "img/hialu.jpg"
   },
   {
     "id": "3",
-    "nombre": "Producto 3",
-    "precio": 1234,
-    "img": "img/pancake.jpg"
+    "nombre": "Limpiador Facial CeraVe Hidratante Pieles Normales",
+    "descripcion": "U x 236 ml",
+    "precio": 20.852,
+    "img": "img/cerave.jpg"
   },
   {
     "id": "4",
-    "nombre": "Producto 4",
-    "precio": 1234,
-    "img": "img/pan.jpg"
+    "nombre": "Sérum La Roche Posay Pure Vitamin C12",
+    "descripcion": "Antioxidante x 30 ml",
+    "precio": 77620,
+    "img": "img/serum.jpg"
   },
   {
     "id": "5",
     "nombre": "Producto 5",
+    "descripcion": "Descripción del producto 5",
     "precio": 1234,
     "img": "img/pan.jpg"
   }

@@ -22,6 +22,12 @@
           <li>
             <a href="./pages/contacto.html">Contacto</a>
           </li>
+          <!--👉 Agregar un link al carrito, con un ID para el contador -->
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono"
+              >🛒<span id="contador-carrito">0</span></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -36,46 +42,9 @@
 
       <section>
         <h2 class="titulo-productos">HOT SALE</h2>
-        <div class="contenedor-tarjetas">
-          <article class="card text-dark">
-            <img src="./img/protector-anthelios.jpg" alt="imagen de protector solar" />
-            <h3>Protector Solar La Roche Posay Anthelios</h3>
-            <p>UVM Spf 50 x 50 ml</p>
-            <p>Precio: $38.216</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-dark">
-            <img src="./img/hialu.jpg" alt="imagen de crema antiedad" />
-            <h3>Crema Anti-Edad de Día Eucerin Hyaluron-Filler + Elasticity</h3>
-            <p>Fps 15 x 50 ml</p>
-            <p>Precio: $82.016</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-dark">
-            <img src="./img/cerave.jpg" alt="imagen de limpiador facial" />
-            <h3>Limpiador Facial CeraVe Hidratante Pieles Normales</h3>
-            <p>U x 236 ml</p>
-            <p>Precio: $25.208</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-dark">
-            <img src="./img/serum.jpg" alt="imagen de serum" />
-            <h3>Sérum La Roche Posay Pure Vitamin C12</h3>
-            <p>Antioxidante x 30 ml</p>
-            <p>Precio: $77.620</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
+        <!--👉 Agregar un ID al div, ahora lo necesitamos -->
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+          <!-- Tarjetas -->
         </div>
       </section>
     </main>
@@ -88,5 +57,7 @@
         </ul>
       </nav>
     </footer>
+    <!--👉 Agregar type module y enlace al index.js -->
+    <script src="./js/index.js" type="module"></script>    
   </body>
 </html>
