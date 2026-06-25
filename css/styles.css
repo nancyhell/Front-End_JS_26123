@@ -78,8 +78,11 @@ h4 {
   border-radius: 1rem;
 }
 
-a:hover{
-  color: #f28d0a;
+.btn:hover {
+  background-color: #f28d0a;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 header,
