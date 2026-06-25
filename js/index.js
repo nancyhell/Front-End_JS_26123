@@ -22,11 +22,11 @@ const renderizarProductos = () => {
         const titulo = document.createElement("h3");
         titulo.textContent = producto.nombre;
 
+        const descripcion = document.createElement("h2");
+        descripcion.textContent = producto.descripcion;
+
         const precio = document.createElement("p");
         precio.textContent = `$${producto.precio}`;
-
-        const descripcion = document.createElement("p");
-        descripcion.textContent = producto.descripcion;
 
         const boton = document.createElement("button");
         boton.classList.add("btn", "bg-secondary", "text-dark");
