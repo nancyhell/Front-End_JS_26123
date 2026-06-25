@@ -34,4 +34,25 @@
     "precio": 132.840,
     "img": "img/isdin.jpg"
   }
+  {
+    "id": "6",
+    "nombre": "Serum The Ordinary",
+    "descripcion": "Niacinamide 10% + Zinc",
+    "precio": 100.840,
+    "img": "img/ordinary.jpg"
+  },
+  {
+    "id": "7",
+    "nombre": "Serum The Ordinary",
+    "descripcion": "Niacinamide 10% + Zinc",
+    "precio": 100.840,
+    "img": "img/ordinary.jpg"
+  },
+    {
+    "id": "8",
+    "nombre": "Serum The Ordinary",
+    "descripcion": "Niacinamide 10% + Zinc",
+    "precio": 100.840,
+    "img": "img/ordinary.jpg"
+  },
 ]
