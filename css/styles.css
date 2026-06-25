@@ -78,8 +78,7 @@ h4 {
   border-radius: 1rem;
 }
 
-.btn a:hover{
-  border: 1px solid #ffffff;
+a:hover{
   color: #f28d0a;
 }
 
