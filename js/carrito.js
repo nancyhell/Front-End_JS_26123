@@ -15,7 +15,7 @@ const renderizarCarrito = () => {
   if (!carrito.length) {
     const mensaje = document.createElement("p");
     mensaje.classList.add("mensaje-carrito-vacio");
-    mensaje.textContent = "Tu carrito esta vacio 😕";
+    mensaje.textContent = "Oh no! Tu carrito esta vacio 😕. Apurate a llenarlo!";
 
     contenedor.appendChild(mensaje);
     return;
@@ -35,6 +35,9 @@ const renderizarCarrito = () => {
     const precio = document.createElement("p");
     precio.textContent = `$${producto.precio}`;
 
+    const descripcion = document.createElement("p");
+    descripcion.textContent = producto.descripcion;
+
     const btnEliminar = document.createElement("button");
     btnEliminar.classList.add("btn");
     btnEliminar.classList.add("btn-eliminar-carrito");
@@ -48,6 +51,7 @@ const renderizarCarrito = () => {
     tarjeta.appendChild(img);
     tarjeta.appendChild(titulo);
     tarjeta.appendChild(precio);
+    tarjeta.appendChild(descripcion);
     tarjeta.appendChild(btnEliminar);
 
     contenedor.appendChild(tarjeta);
