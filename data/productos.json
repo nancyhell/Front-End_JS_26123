@@ -43,16 +43,16 @@
   },
   {
     "id": "7",
-    "nombre": "Serum The Ordinary",
-    "descripcion": "Niacinamide 10% + Zinc",
-    "precio": 100.840,
-    "img": "img/ordinary.jpg"
+    "nombre": "Airbrush Flawless Setting Spray",
+    "descripcion": "Maquillaje Airbrush Flawless Setting Spray de 100 ml de Charlotte Tilbury",
+    "precio": 85.840,
+    "img": "img/airblush.jpg"
   },
   {
     "id": "8",
-    "nombre": "Serum The Ordinary",
-    "descripcion": "Niacinamide 10% + Zinc",
-    "precio": 100.840,
-    "img": "img/ordinary.jpg"
+    "nombre": "Radiant Creamy Concealer",
+    "descripcion": "Cobertura super cubritiva para ocultar imperfecciones",
+    "precio": 50.140,
+    "img": "img/nars.jpg"
   }
 ]
