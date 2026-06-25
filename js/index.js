@@ -41,8 +41,8 @@ const renderizarProductos = () => {
         // Armar la estructura de la tarjeta
         tarjeta.appendChild(img);
         tarjeta.appendChild(titulo);
-        tarjeta.appendChild(precio);
         tarjeta.appendChild(descripcion);
+        tarjeta.appendChild(precio);
         tarjeta.appendChild(boton);
 
         //Agregamos la tarjeta al DOM
